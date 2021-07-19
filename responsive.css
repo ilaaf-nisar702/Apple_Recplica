@@ -14,12 +14,14 @@
 
 	.iphone-12-pro {
 		background: url("images/hero/iphone-12-pro/iphone_12_pro_small.jpg");
+		margin-top: -4rem;
 	}
 	.iphone-12 {
 		background: url("images/hero/iphone-12/iphone_12_small.jpg");
 	}
 	.ipad-pro{
 		background: url("images/hero/ipad-pro/ipad_pro_small.jpg");
+		margin-top: -4rem;
 	}
 
 	.box{
@@ -37,32 +39,38 @@
 	.imac {
 		background: url("images/hero/imac/imac_medium.jpg");
 		width: 100%;
+		margin-top: -4rem;
 	}
 
 
 	.watch {
 		background: url("images/hero/watch-series-6/watch_series_6_medium.jpg");
 		width: 100%;
+		margin-top: -4rem;
 	}
 
 	.school {
 		background: url("images/hero/back-to-school/promo_bts_medium.jpg");
 		width: 100%;
+		margin-top: -4rem;
 	}
 
 	.arcade {
 		background: url("images/hero/arcade-ultimate-rival/arcade_medium.jpg");
 		width: 100%;
+		margin-top: -4rem;
 	}
 
 	.card {
 		background: url("images/hero/apple-card/tile_medium.jpg");
 		width: 100%;	
+		margin-top: -4rem;
 	}
  	.schmigadoor {
  		background: url("images/hero/tv-plus-schmigadoor/schmigadoon_large.jpg");
  		margin-top: -4.6rem;
 		width: 100%;	
+		margin-top: -4rem;
  	}
 
 
