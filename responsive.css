@@ -1,0 +1,179 @@
+/*@media screen and (max-width:768px) {*/
+@media screen and (max-width:768px) {
+
+	html {
+		font-size: 8px;
+	}
+
+	.conatiner {
+	max-width: 98rem;
+	margin: 0 auto;
+	padding: 0 2.2rem;
+}
+
+
+	.iphone-12-pro {
+		background: url("images/hero/iphone-12-pro/iphone_12_pro_small.jpg");
+	}
+	.iphone-12 {
+		background: url("images/hero/iphone-12/iphone_12_small.jpg");
+	}
+	.ipad-pro{
+		background: url("images/hero/ipad-pro/ipad_pro_small.jpg");
+	}
+
+	.box{
+ 		margin-right: 2%;
+ 		margin-left: 2%;
+ 		font-size: 13px;
+ 		font-family: "SF Pro AR","SF Pro Gulf","SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+ 		opacity: 0.7;
+ 	}
+
+	.wrap{
+		display: block;
+	}
+
+	.imac {
+		background: url("images/hero/imac/imac_medium.jpg");
+		width: 100%;
+	}
+
+
+	.watch {
+		background: url("images/hero/watch-series-6/watch_series_6_medium.jpg");
+		width: 100%;
+	}
+
+	.school {
+		background: url("images/hero/back-to-school/promo_bts_medium.jpg");
+		width: 100%;
+	}
+
+	.arcade {
+		background: url("images/hero/arcade-ultimate-rival/arcade_medium.jpg");
+		width: 100%;
+	}
+
+	.card {
+		background: url("images/hero/apple-card/tile_medium.jpg");
+		width: 100%;	
+	}
+ 	.schmigadoor {
+ 		background: url("images/hero/tv-plus-schmigadoor/schmigadoon_large.jpg");
+ 		margin-top: -4.6rem;
+		width: 100%;	
+ 	}
+
+
+	.hero {
+		height: 65rem;
+		background-size: auto 60rem;
+		background-position: bottom center;
+		background-repeat: no-repeat; 
+	}
+
+	.title-heading {
+		font-size: 4rem;
+		padding-top: 4rem;
+	}
+	.title-sub-heading{
+		font-size: 2.2rem;
+	}
+	.cta-link: nth-child(2){
+		margin-left: 2rem;
+	}
+/*	.title-heading-watch{
+		height: 6.2rem;
+		background: url("images/hero/watch/logo_watch_medium.png") center no-repeat;
+		background-size: auto 6.2rem;
+	}
+*/
+	.title-heading-watch {
+	height:4.5rem;
+	background: url("images/hero/watch-series-6/logo_watch_series_6_large.png") center no-repeat;
+	background-size: auto 4.5rem;
+	margin-top: 2rem;
+	z-index: 1;
+}
+
+.title-heading-schmigadoor{
+	height:3.5rem;
+	background: url("images/hero/tv-plus-schmigadoor/logo_medium.png") center no-repeat;
+	background-size: auto 3.5rem;
+	margin-top: 6rem;	
+}
+
+
+.title-footer-schmigadoor{
+	color: #fff;
+	text-align: center;
+	height:3.5rem;
+	margin-top: 46rem;	
+}
+
+.column {
+	float: left;
+ 	width: 100%;
+}
+
+
+.box{
+ 	margin-right: 2%;
+ 	margin-left: 2%;
+ 	font-size: 13px;
+ 	font-family: "SF Pro AR","SF Pro Gulf","SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+ 	opacity: 0.7;
+}
+
+
+/*Footer*/
+    
+   footer {
+      padding: 0 16px;
+      padding-bottom: 21px;
+    }
+    
+    .item {
+      border-bottom: 1px solid #d6d6d6;
+    }
+    
+  footer h3 {
+      padding: 10px 0;
+      margin: 0;
+      cursor: pointer;
+    }
+    
+   footer h3::after {
+      content: '+';
+      position: absolute;
+      right: 20px;
+      font-size: 14px;
+      font-weight: bold;
+      transition: transform .3s ease
+    }
+    
+    input[type="checkbox"]:checked+.col-section h3::after {
+    content: 'x';
+    }
+    .product-list {
+      visibility: hidden;
+      position: absolute;
+      transform: translateY(-100px);
+      z-index: 1;
+    }
+   
+    .product-list a {
+      padding: 6px 14px;
+    }
+  
+}
+
+
+@media only screen and (min-width: 767px) {
+    .item-padding-top {
+      padding-top: 24px;
+    }
+  }
+
+
